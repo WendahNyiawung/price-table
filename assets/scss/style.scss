@@ -1,0 +1,56 @@
+$primary:#3a3594;
+$secondary:#D5DCDE;
+.body{
+    font-family: 'roboto'
+}
+.save{
+    color: #fff;
+    .span-2{
+        margin-top: -1.5rem;
+        font-weight: 500;
+    }
+    .pa-3{
+        font-size: .9rem;
+    }
+}
+.free-plan{
+    .pa-2{
+        font-size: 1rem;
+          margin-top: -1.5rem;
+    }
+}
+.lite{
+    .lite-underline{
+        width: 15px;
+         padding-bottom: 10px;
+          border-bottom: 2px solid black;
+         line-height: 25px;
+  
+    }
+    .p-restriction{
+         margin-top: -.7rem;
+         color: #888888
+    }
+    .lite-span{
+        font-size: .9rem;
+    }
+}
+.pro{
+    background-color: #3023AC;
+    .lite-underline{
+        width: 15px;
+         padding-bottom: 10px;
+          border-bottom: 2px solid rgb(255, 255, 255);
+         line-height: 25px;
+  
+    }
+    .p-restriction{
+         margin-top: -.7rem;
+         color: #ffffff
+    }
+    .pro-span{
+        font-size: .9rem;
+    }
+}
+
+@import'../boostrap/scss/bootstrap.scss';
